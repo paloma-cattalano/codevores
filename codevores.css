@@ -1,8 +1,7 @@
 body
 {
-
+  background-color: blue !important;
 }
-
  /* bandeau header */
 
 header
@@ -17,12 +16,6 @@ header
 {
   font-size: 1.5em;
 }
-
-/* .title
-{
-  text-align: center;
-  font-family: 'Pacifico', cursive;
-} */
 
 .nav-link
 {
@@ -39,35 +32,42 @@ header
 .card
 {
   border: 0px !important;
+  font-family: 'Bitter', serif;
+  margin: 0px !important;
+  background-color: lime !important;
 }
 
 .card-body
 {
-  font-family: 'Bitter', serif;
   margin: 1em;
   padding: 4em;
   /* box-shadow: 1px 1px 1px 1px grey; */
-  border-radius: 12px;
-  /* background: rgba(0, 0, 0, 0.1); */
-
+  /* border-radius: 12px; */
 }
 
 .card-search
 {
-  font-family: 'Bitter', serif;
   /* background: rgba(0, 0, 0, 0.1); */
   margin: 10em;
   padding: 4em;
   box-shadow: 1px 1px 1px 1px grey;
   border-radius: 12px;
+  background-color: #DED6CF;
 }
 
-.card-footer
+.card-group
 {
- font-family: 'Bitter', serif;
+  margin: 3em;
 }
 
 .icone
 {
-  color: black;
+  font-size: 1.5em;
+  margin-left: 0.3em;
+  color: grey;
+}
+
+.footer
+{
+  background-color: gold !important;
 }
