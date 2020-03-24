@@ -1,0 +1,73 @@
+body
+{
+
+}
+
+ /* bandeau header */
+
+header
+{
+  color: black;
+  font-family: 'Bitter', serif;
+  box-shadow: inset 17em 1em gold;
+
+}
+
+.logo
+{
+  font-size: 1.5em;
+}
+
+/* .title
+{
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+} */
+
+.nav-link
+{
+  color: black;
+}
+
+.btn
+{
+  margin: 1vh;
+}
+
+/* fin du bandeau header */
+
+.card
+{
+  border: 0px !important;
+}
+
+.card-body
+{
+  font-family: 'Bitter', serif;
+  margin: 1em;
+  padding: 4em;
+  /* box-shadow: 1px 1px 1px 1px grey; */
+  border-radius: 12px;
+  /* background: rgba(0, 0, 0, 0.1); */
+
+}
+
+.card-search
+{
+  font-family: 'Bitter', serif;
+  /* background: rgba(0, 0, 0, 0.1); */
+  margin: 10em;
+  padding: 4em;
+  box-shadow: 1px 1px 1px 1px grey;
+  border-radius: 12px;
+}
+
+.card-footer
+{
+ font-family: 'Bitter', serif;
+}
+
+.icone
+{
+  color: black;
+}
