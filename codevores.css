@@ -1,6 +1,6 @@
 body
 {
-  background-color: blue !important;
+  background-color: #DC493A !important;
 }
  /* bandeau header */
 
@@ -8,7 +8,7 @@ header
 {
   color: black;
   font-family: 'Bitter', serif;
-  box-shadow: inset 17em 1em gold;
+  box-shadow: inset 17em 2.1em #26547C;
 
 }
 
@@ -34,7 +34,7 @@ header
   border: 0px !important;
   font-family: 'Bitter', serif;
   margin: 0px !important;
-  background-color: lime !important;
+  background-color: #386FA4 !important;
 }
 
 .card-body
@@ -42,7 +42,6 @@ header
   margin: 1em;
   padding: 4em;
   /* box-shadow: 1px 1px 1px 1px grey; */
-  /* border-radius: 12px; */
 }
 
 .card-search
@@ -50,24 +49,49 @@ header
   /* background: rgba(0, 0, 0, 0.1); */
   margin: 10em;
   padding: 4em;
-  box-shadow: 1px 1px 1px 1px grey;
+  box-shadow: 3px 3px 3px 3px pink;
   border-radius: 12px;
-  background-color: #DED6CF;
+  background-color: #386FA4 !important;
 }
 
-.card-group
+.card-faq
 {
-  margin: 3em;
+  background-color: #FFFEF7;
+  margin-left: 3em;
+  width: 50%;
 }
 
 .icone
 {
-  font-size: 1.5em;
-  margin-left: 0.3em;
-  color: grey;
+  font-size: 1.7em;
+  margin-right: 0.3em;
+  color: white;
 }
 
-.footer
+.navbar
 {
-  background-color: gold !important;
+  padding: 0rem !important;
+}
+
+.navmenu
+{
+  background-color: #26547C !important;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  padding: 2em;
+  08415C
+}
+
+.titlefooter
+{
+  color: #F4F9E9;
+}
+
+.textfooter
+{
+  color: #F4F9E9;
+  font-size: 0.7em;
+  word-break: break-all;
 }
