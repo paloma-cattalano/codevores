@@ -1,0 +1,226 @@
+body
+{
+  /* background-image: url(https://images.unsplash.com/photo-1579548122080-c35fd6820ecb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1540&q=60); */
+  background-image: url(https://images.unsplash.com/photo-1558478551-1a378f63328e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1540&q=60);
+  background-attachment: fixed;
+}
+
+
+                               /* bloc header */
+
+
+
+header
+{
+  color: white;
+  font-family: Montserrat;
+  /* font-family: 'Bitter', serif; */
+  /* box-shadow: inset 17em 2.1em #E07A5F; */
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.logo
+{
+  margin: 0.5em;
+  /* color: white !important; */
+}
+
+.nav-link
+{
+  color: white !important;
+}
+
+.btn
+{
+  margin: 1vh;
+}
+
+                        /* fin du bloc header */
+
+
+.card
+{
+  border: 0px !important;
+  font-family: Montserrat;
+  /* font-family: 'Bitter', serif; */
+  margin: 0px !important;
+  background: rgba(0, 0, 0, 0.4) !important;
+}
+
+.title
+{
+  color: white;
+  padding: 1.5em;
+}
+
+.card-body
+{
+  margin: 1em;
+  padding: 4em;
+}
+
+.card-text
+{
+  color: white;
+}
+
+.card-search
+{
+  margin: 10em;
+  padding: 4em;
+  border-radius: 12px;
+  /* background: rgba(0, 0, 0, 0.4); */
+}
+                              /* bloc codegirls */
+.card-cdg
+{
+  margin: 3em;
+  /* background: rgba(0, 0, 0, 0.4) !important; */
+  background-color: white !important;
+  color: black;
+  width: 14em;
+  /* height: 26em; */
+  border-radius: 5px;
+}
+
+img
+{
+  border-radius: 5px;
+}
+                            /* bloc footer */
+
+.icone
+{
+  font-size: 1.7em;
+  margin-right: 0.3em;
+  color: white;
+}
+
+.navbar
+{
+  padding: 0rem !important;
+}
+
+.navmenu
+{
+  /* background-color: #26547C !important; */
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  padding: 2em;
+  margin-top: 15em;
+}
+
+.titlefooter
+{
+  color: #F4F9E9;
+}
+
+.textfooter
+{
+  color: #F4F9E9;
+  font-size: 0.7em;
+  word-break: break-all;
+}
+                           /* fin du bloc footer */
+
+
+/*
+.card-photo
+{
+  width: 13em;
+  border: 3px solid black;
+} */
+                             /* bloc faq */
+.card-faq
+{
+  background-color: #FFFEF7;
+  margin-left: 3em;
+  width: 50%;
+}
+
+.accordion
+{
+  margin: 5em;
+}
+
+                           /* fin du bloc faq */
+
+
+                           /* bloc connexion */
+
+
+
+.form-group
+{
+  width: 20em;
+}
+
+.formc
+{
+  margin: 5em !important;
+  padding: 3em !important;
+  border-radius: 12px;
+  background-color: #F7EDE2;
+  width: 40%
+}
+
+                           /* bloc inscription */
+
+.needs-validation
+{
+  margin: 5em !important;
+  padding: 5% !important;
+  background-color: #F7EDE2;
+  max-width: 70%;
+}
+
+/* bloc cv */
+.card-cv
+{
+  margin: 3em;
+}
+
+                             /*bandeau pub*/
+
+.bandeaupub
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #453A49;
+  color: #F7EDE2;
+  padding: 4.5em;
+
+}
+
+.textebandeau
+{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 1.3em;
+  font-family: Montserrat;
+  font-weight: bold;
+  word-wrap: break-word;
+  width: 30%;
+}
+
+.chb
+{
+  font-size: 2.3em;
+  color: #F7EDE2;
+}
+
+.big
+{
+  font-size: 1.6em;
+}
+
+.btnabout
+{
+  background-color: #453A49;
+  padding-bottom: 2em;
+}
